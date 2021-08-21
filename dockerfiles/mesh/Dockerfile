@@ -16,7 +16,7 @@ ADD . ./
 RUN go build ./cmd/mesh
 
 # Final Image
-FROM alpine:3.12
+FROM alpine:latest
 
 RUN apk update && apk add ca-certificates --no-cache
 
