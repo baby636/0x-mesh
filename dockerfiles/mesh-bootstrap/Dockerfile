@@ -16,7 +16,7 @@ ADD . ./
 RUN go build ./cmd/mesh-bootstrap
 
 # Final Image
-FROM alpine:3.12
+FROM alpine:3.14.3
 
 RUN apk update && apk add ca-certificates --no-cache
 
