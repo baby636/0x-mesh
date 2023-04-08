@@ -21,7 +21,7 @@
         "docsPath": "../../docs/browser-bindings/browser"
     },
     "devDependencies": {
-        "@0x/subproviders": "^6.0.5",
+        "@0x/subproviders": "^8.0.1",
         "@0x/tslint-config": "^4.0.0",
         "@types/base64-arraybuffer": "^0.1.0",
         "ignore-loader": "^0.1.2",
